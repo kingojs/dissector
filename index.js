@@ -6,7 +6,7 @@ const fs = require('fs');
  */
 const dissect = (collectionPath) => {
   const collection = JSON.parse(fs.readFileSync(collectionPath, { encoding: 'utf8', flag: 'r' }));
-  console.log(collection);
+  console.log({ collection: JSON.stringify(collection) });
 };
 
 /**
@@ -14,8 +14,8 @@ const dissect = (collectionPath) => {
  * @param {string} sourceCode - Code previously extracted from the original collection.
  * @param {string} collectionPath - Path to the collection to modify its internal source code.
  */
-const undissect = (sourceCode, collectionPath) => {
-  console.log('undissect');
+const reverseDissect = (sourceCode, collectionPath) => {
+  console.log({ sourceCode, collectionPath });
 };
 
-module.exports = { dissect, undissect };
+module.exports = { dissect, reverseDissect };
