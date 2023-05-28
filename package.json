@@ -1,0 +1,25 @@
+{
+  "name": "@kingojs/dissector",
+  "version": "2023.5.1",
+  "description": "A dissector for Postman Collections",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingojs/dissector.git"
+  },
+  "keywords": [
+    "dissector",
+    "postman",
+    "javascript",
+    "kingojs"
+  ],
+  "author": "Ramb Memburg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kingojs/dissector/issues"
+  },
+  "homepage": "https://github.com/kingojs/dissector#readme"
+}
